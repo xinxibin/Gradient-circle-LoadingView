@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415526A71D5833A600FD6F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415526A61D5833A600FD6F2E /* AppDelegate.swift */; };
+		415526A91D5833A600FD6F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415526A81D5833A600FD6F2E /* ViewController.swift */; };
+		415526AC1D5833A600FD6F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415526AA1D5833A600FD6F2E /* Main.storyboard */; };
+		415526AE1D5833A600FD6F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415526AD1D5833A600FD6F2E /* Assets.xcassets */; };
+		415526B11D5833A600FD6F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415526AF1D5833A600FD6F2E /* LaunchScreen.storyboard */; };
+		415526B91D58341600FD6F2E /* GMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415526B81D58341600FD6F2E /* GMView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		415526A31D5833A600FD6F2E /* 图层拼接渐变线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图层拼接渐变线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415526A61D5833A600FD6F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		415526A81D5833A600FD6F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		415526AB1D5833A600FD6F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		415526AD1D5833A600FD6F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415526B01D5833A600FD6F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		415526B21D5833A600FD6F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415526B81D58341600FD6F2E /* GMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415526A01D5833A600FD6F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4155269A1D5833A600FD6F2E = {
+			isa = PBXGroup;
+			children = (
+				415526A51D5833A600FD6F2E /* 图层拼接渐变线 */,
+				415526A41D5833A600FD6F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415526A41D5833A600FD6F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415526A31D5833A600FD6F2E /* 图层拼接渐变线.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415526A51D5833A600FD6F2E /* 图层拼接渐变线 */ = {
+			isa = PBXGroup;
+			children = (
+				415526A61D5833A600FD6F2E /* AppDelegate.swift */,
+				415526A81D5833A600FD6F2E /* ViewController.swift */,
+				415526B81D58341600FD6F2E /* GMView.swift */,
+				415526AA1D5833A600FD6F2E /* Main.storyboard */,
+				415526AD1D5833A600FD6F2E /* Assets.xcassets */,
+				415526AF1D5833A600FD6F2E /* LaunchScreen.storyboard */,
+				415526B21D5833A600FD6F2E /* Info.plist */,
+			);
+			path = "图层拼接渐变线";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415526A21D5833A600FD6F2E /* 图层拼接渐变线 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415526B51D5833A600FD6F2E /* Build configuration list for PBXNativeTarget "图层拼接渐变线" */;
+			buildPhases = (
+				4155269F1D5833A600FD6F2E /* Sources */,
+				415526A01D5833A600FD6F2E /* Frameworks */,
+				415526A11D5833A600FD6F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图层拼接渐变线";
+			productName = "图层拼接渐变线";
+			productReference = 415526A31D5833A600FD6F2E /* 图层拼接渐变线.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4155269B1D5833A600FD6F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GloryMan;
+				TargetAttributes = {
+					415526A21D5833A600FD6F2E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4155269E1D5833A600FD6F2E /* Build configuration list for PBXProject "图层拼接渐变线" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4155269A1D5833A600FD6F2E;
+			productRefGroup = 415526A41D5833A600FD6F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415526A21D5833A600FD6F2E /* 图层拼接渐变线 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415526A11D5833A600FD6F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415526B11D5833A600FD6F2E /* LaunchScreen.storyboard in Resources */,
+				415526AE1D5833A600FD6F2E /* Assets.xcassets in Resources */,
+				415526AC1D5833A600FD6F2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4155269F1D5833A600FD6F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415526B91D58341600FD6F2E /* GMView.swift in Sources */,
+				415526A91D5833A600FD6F2E /* ViewController.swift in Sources */,
+				415526A71D5833A600FD6F2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		415526AA1D5833A600FD6F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415526AB1D5833A600FD6F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		415526AF1D5833A600FD6F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415526B01D5833A600FD6F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415526B31D5833A600FD6F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		415526B41D5833A600FD6F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415526B61D5833A600FD6F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图层拼接渐变线/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-06907778-qq.com.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		415526B71D5833A600FD6F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图层拼接渐变线/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-06907778-qq.com.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4155269E1D5833A600FD6F2E /* Build configuration list for PBXProject "图层拼接渐变线" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415526B31D5833A600FD6F2E /* Debug */,
+				415526B41D5833A600FD6F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415526B51D5833A600FD6F2E /* Build configuration list for PBXNativeTarget "图层拼接渐变线" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415526B61D5833A600FD6F2E /* Debug */,
+				415526B71D5833A600FD6F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4155269B1D5833A600FD6F2E /* Project object */;
+}
