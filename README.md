@@ -17,5 +17,5 @@
 ![](http://oahmyhzk1.bkt.clouddn.com/%E6%B8%90%E5%8F%98%E5%9C%86loading.gif)
 
 > 具体实现可以去我的博客或者简书查看
-* [博客地址]()
-* [简书地址]()
+* [博客地址](https://xinxibin.com/iOS-Gradient-Circle-LoadingView)
+* [简书地址](http://www.jianshu.com/p/af93e283af8b)
